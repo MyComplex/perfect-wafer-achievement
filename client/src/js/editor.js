@@ -14,6 +14,10 @@ export default class {
     this.editor = CodeMirror(document.querySelector('#main'), {
       value: '',
       mode: 'javascript',
+      // mode: {
+      //   name: 'javascript',
+      //   json: true,
+      // },
       theme: 'monokai',
       lineNumbers: true,
       lineWrapping: true,
